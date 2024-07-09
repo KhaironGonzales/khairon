@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="hangman.jpg" type="image/icon type">
+    <link href="hangman.css" rel="stylesheet">
+    <title>Hangman</title>
+</head>
+<div id="GameOver">
+
+    <label id="lab">Game Over!</label>
+    <button><a href="index.html" style="text-decoration: none; ">New Game</a></button>
+
+
+
+</div>
+
+<div id="GameWinner">
+
+    <label id="lab">You've Won</label>
+    <button><a href="index.html" style="text-decoration: none; ">New Game</a></button>
+
+
+
+</div>
+
+<body>
+
+    <div id="userinp">
+        <div id="hangmandiv">
+            <img class="hangman" src="/2ND/Hangman/man1.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man2.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man3.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man4.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man5.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man6.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man7.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man8.png" alt="hangmanX" style="display: none;">
+            <img class="hangman" src="/2ND/Hangman/man9.png" alt="hangmanX" style="display: none;">
+        </div>
+        <div id="inputContainer"></div> <!-- Container where the input fields will be added -->
+
+        <div id="maincon">
+            <div class="keyboard">
+                <button class="letters">Q</button>
+                <button class="letters">W</button>
+                <button class="letters">E</button>
+                <button class="letters">R</button>
+                <button class="letters">T</button>
+                <button class="letters">Y</button>
+                <button class="letters">U</button>
+                <button class="letters">I</button>
+                <button class="letters">O</button>
+                <button class="letters">P</button>
+            </div>
+            <div class="keyboard">
+                <button class="letters">A</button>
+                <button class="letters">S</button>
+                <button class="letters">D</button>
+                <button class="letters">F</button>
+                <button class="letters">G</button>
+                <button class="letters">H</button>
+                <button class="letters">J</button>
+                <button class="letters">K</button>
+                <button class="letters">L</button>
+            </div>
+            <div class="keyboard">
+                <button class="letters">Z</button>
+                <button class="letters">X</button>
+                <button class="letters">C</button>
+                <button class="letters">V</button>
+                <button class="letters">B</button>
+                <button class="letters">N</button>
+                <button class="letters">M</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="hangman.js">
+
+    </script>
+</body>
+
+</html>
