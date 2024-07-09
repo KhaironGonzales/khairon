@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
-    font-family: cursive;
+    font-family: monospace
 }
 
 button:hover {
@@ -88,17 +88,17 @@ h5 {
 @media (max-width: 408px) {
 
     #userInput {
-        width: 300px;
-        height: 60px;
+        width: 90%;
+        height: 40px;
         font-size: 24px;
         text-align: center;
         border-radius: 100px;
     }
 
     #enterbut {
-        width: 150px;
-        height: 50px;
-        font-size: 18px;
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
         margin-top: 10px;
         border-radius: 100px;
         cursor: pointer;
@@ -107,6 +107,43 @@ h5 {
     #userinp label {
         font-size: 40px;
         margin-bottom: 20px;
+
+    }
+}
+
+
+@media (max-width: 309px) {
+
+    #userInput {
+        width: 90%;
+        height: 30px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 100px;
+    }
+
+    #enterbut {
+        width: 30%;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 10px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    #userinp label {
+        font-size: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+
+    }
+
+    #userinp {
+
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
 
     }
 }
