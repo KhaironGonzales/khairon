@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
-    font-family: cursive;
+    font-family: monospace;
 }
 
 #maincon {
@@ -736,8 +736,8 @@ a:visited {
     }
 
     #GameOver {
-        height: 60%;
-        width: 60%;
+        height: 100%;
+        width: 100%;
         position: absolute;
         background-color: rgba(0, 0, 0, 0.92);
 
@@ -746,7 +746,7 @@ a:visited {
         justify-content: center;
         text-align: center;
         display: none;
-        border-radius: 30px;
+
         color: white;
     }
 
@@ -755,7 +755,7 @@ a:visited {
         position: absolute;
         font-size: 25px;
         /* Make the h1 position absolute relative to its container */
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* Center based on its own width and height */
@@ -791,8 +791,8 @@ a:visited {
 
     /**/
     #GameWinner {
-        height: 60%;
-        width: 40%;
+        height: 100%;
+        width: 100%;
         position: absolute;
         background-color: rgba(0, 0, 0, 0.92);
 
@@ -811,7 +811,7 @@ a:visited {
         position: absolute;
         font-size: 20px;
         /* Make the h1 position absolute relative to its container */
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         /* Center based on its own width and height */
@@ -848,7 +848,7 @@ a:visited {
         height: 150px;
         border-radius: 10px;
         padding-bottom: 5%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         overflow: hidden;
 
 
@@ -930,7 +930,7 @@ a:visited {
         height: 150px;
         border-radius: 10px;
         padding-bottom: 5%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         overflow: hidden;
 
 
